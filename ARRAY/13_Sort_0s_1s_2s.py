@@ -30,13 +30,3 @@
 # arr.sort()
 # print(arr)
 # print("=============================================")
-arr=[2,0,1,0,1,0,2,9,2,0]
-new_arr=[]
-for i in arr:
-    if i != 0:
-        new_arr.append(i)
-new_arr.sort()
-for j in arr:
-    if j == 0:
-        new_arr.append(j)
-print(new_arr)
